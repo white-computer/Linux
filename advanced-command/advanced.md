@@ -12,7 +12,7 @@
 
 含义：表示输出当前主机名中的FQDN（全限定域名）
 
-![计算机生成了可选文字: hekun@ubuntu.—/testShostname一f UbUntU](assets/clip_image001-16584843026773.png)
+![](assets/clip_image001-16584843026773.png)
 
 ### 2. id指令
 
@@ -20,29 +20,29 @@
 
 语法1：#id    默认显示当前执行该命令的用户的基本信息
 
-![计算机生成了可选文字: hekun@ubuntu:、/testS utd=1000(hekun)gid=1000(hekun)g「oups=1000(hekun),4(adm)，24（cd「om），27（sudo）,30( dtp),46(plugdev)，120(lpadmtn)，132（×d），133(sambasha「e)](assets/clip_image003.png)
+![](assets/clip_image003.png)
 
 语法2：#id  用户名     显示指定用户的基本信息
 
-![计算机生成了可选文字: hekun@ubuntu:、/testSid「00t Utd=O(「00t）gid=O（「00t）g「oups=e(「00t） hekun@ubuntu:、/testSidhekun utd=1000(hekun)gid=1000(hekun)g「oups=1000(hekun)，4（ad），24（cd「om），27（sudo）,30( dtp),46(plugdev)，120(lpadmtn)。132（Ixd），133(sambasha「e)](assets/clip_image004.png)
+![](assets/clip_image004.png)
 
 验证上述信息是否正确？
 
-**验证用户信息：****cat** **/etc/passwd**
+**验证用户信息：cat/etc/passwd**
 
-![计算机生成了可选文字: hekun:x:1000::hekun, ：/home/hekun：/btn/bash systemd-co「edump:x:999:999:systemdCO「eDumpe「:/:/usr/sbtn/nologtn](assets/clip_image001-16584870805831-16584870828262.png)
+![](assets/clip_image001-16584870805831-16584870828262.png)
 
-**验证用户组信息：**cat /etc/group**
+**验证用户组信息：cat /etc/group**
 
 ![计算机生成了可选文字: hekun@ubuntu:、/testScat/etc/g「oup adm:x:4:sysIog, hekun cd「0：x：24： sudo：x：27：hekun dtp：×：30： plugdev:x:46: Ipadmtn:x:120: Ixd：x：132： ：x：1333： lg「ephekun](assets/clip_image001-16584870951683-16584870967644.png)
 
 ### 3. whoami指令
 
-**作用：“我是谁？”显示当前登录的用户名，****一般用于****shell****脚本，用于获取当前操作的用户名方便记录日志****。**
+作用：“我是谁？”显示当前登录的用户名，一般用于shell脚本，用于获取当前操作的用户名方便记录日志。
 
 语法：#whoami
 
-![计算机生成了可选文字: hekun@ubuntu.—/testSwhoamt hekun](assets/clip_image007.png)
+![](assets/clip_image007.png)
 
 ### 4. ps -ef指令（重点）
 
