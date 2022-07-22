@@ -30,11 +30,11 @@
 
 **验证用户信息：****cat** **/etc/passwd**
 
-![计算机生成了可选文字: hekun:x:1000::hekun, ：/home/hekun：/btn/bash systemd-co「edump:x:999:999:systemdCO「eDumpe「:/:/usr/sbtn/nologtn](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![计算机生成了可选文字: hekun:x:1000::hekun, ：/home/hekun：/btn/bash systemd-co「edump:x:999:999:systemdCO「eDumpe「:/:/usr/sbtn/nologtn](assets/clip_image001-16584870805831-16584870828262.png)
 
-**验证用户组信息：****cat** **/etc/group**
+**验证用户组信息：**cat /etc/group**
 
-![计算机生成了可选文字: hekun@ubuntu:、/testScat/etc/g「oup adm:x:4:sysIog, hekun cd「0：x：24： sudo：x：27：hekun dtp：×：30： plugdev:x:46: Ipadmtn:x:120: Ixd：x：132： ：x：1333： lg「ephekun](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![计算机生成了可选文字: hekun@ubuntu:、/testScat/etc/g「oup adm:x:4:sysIog, hekun cd「0：x：24： sudo：x：27：hekun dtp：×：30： plugdev:x:46: Ipadmtn:x:120: Ixd：x：132： ：x：1333： lg「ephekun](assets/clip_image001-16584870951683-16584870967644.png)
 
 ### 3. whoami指令
 
