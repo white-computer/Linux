@@ -1,18 +1,14 @@
-- 1. hostname指令
+- ### 1. hostname指令
 
 - 作用：操作服务器的**主机名**（**读取**、设置）
 
--  
-
 - 语法1：#hostname      含义：表示输出完整的主机名
 
-- ![img](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+- ![](C:\Users\He Kun\Documents\GitHub\Linux\advanced-command\clip_image001.png)
 
--  
+- 语法2：#hostname -f       含义：表示输出当前主机名中的FQDN（全限定域名）
 
-- **语法****2****：****#hostname -f**       **含义：表示输出当前主机名中的****FQDN**（全限定**域名**）
-
-- ![计算机生成了可选文字: hekun@ubuntu.—/testShostname一f UbUntU](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+- ![](C:\Users\He Kun\Documents\GitHub\Linux\advanced-command\clip_image002.png)
 
 - 1. id指令
 
