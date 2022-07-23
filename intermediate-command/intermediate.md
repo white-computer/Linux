@@ -26,9 +26,9 @@
 
 - 作用：查看一个文件的前n行，如果不指定n，则默认显示前10行。
 
-- **语法：****#head -n** **文件路径**  **【****n****表示数字】**
+- **语法：** **#head -n** **文件路径**  **【n表示数字】**
 
-- ![计算机生成了可选文字: hekun@ubuntu total76 d「闪×「一x「一x15 06：12 d「闪×「一X「一X3 22：49 22：49 —/testShead -n8 4396 4396 637 22e 3771 4396 4396 Itnuxall.txt 1 1 1 10 13 hekun 「00t hekun hekun hekun hekun hekun hekun 「00t hekun hekun hekun hekun hekun Jul Jul Jul Jul Jul Jul Jul 16 11 16 11 11 11 16 35 22 23 36 ：49 ：49 ：17 ：39 .bashhisto「y .bashlogOUt .bash「c ．config](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image006.png)
+- 
 
 - ### 4. tail
 
