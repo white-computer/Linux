@@ -36,11 +36,11 @@
 
 - **语法：****#tail -n** **文件的路径**   **n****同样表示数字**
 
-- ![计算机生成了可选文字: d「WX「WX「 d「WX「一X「 hekun@ubuntu 23：15 23：15 23：15 06：13 23：15 —/testStail -n10Itnuxall.txt -x -x -x -x -x -x -x 3 3 2 2 1 2 1 2 3 2 hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun hekun 4e96 4396 4e96 4e96 837 4e96 O 4e96 4e96 4396 Jul Jul Jul Jul Jul Jul Jul Jul Jul Jul 11 11 11 11 11 11 15 11 16 11 23 23 22 19 23 ：15 ：15 ：49 ：46 ：15 •gnupg ．local Pictu「es .p「oftle Public ．sudOaS Templates test Videos](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image007.png)
+- ![](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image007.png)
 
 -  作用2：可以通过tail指令来查看一个文件的动态变化内容【**变化的内容不能是用户手动增加的**】
 
-- **语法：****#tail -f** **文件路径**
+- **语法：#tail -f 文件路径**
 
 - **利用输出重定向功能，将内容写入指定文件**
 
@@ -50,7 +50,7 @@
 
 - 作用：查看文件，以较少的内容进行输出，按下辅助功能键（数字+回车、**空格键**+上下方向键）查看更多
 
-- **语法：****#less** **需要查看的文件路径**
+- **语法：#less** **需要查看的文件路径**
 
 - ![img](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image008.png)
 
@@ -62,7 +62,7 @@
 
 - 语法：**#wc -lwc** **需要统计的文件路径**
 
-- **-l****：表示****lines****，行数**
+- **-l：表示lines，行数**
 
 - -w：表示words，单词数  依照空格来判断单词数量
 
@@ -88,15 +88,13 @@
 
 - 语法3：#date  “+%F %T”  **引号表示让“年月日与时分秒”成为一个不可分割的整体**
 
-- **等价操作****#date “+%Y-%m-%d %H:%M:%S”**
+- **等价操作 #date “+%Y-%m-%d %H:%M:%S”**
 
 - ![计算机生成了可选文字: hekun@ubuntu 、/DesktopSdate 2e22一07一1800：37：24 hekun@ubuntu 、/DesktopSdate 2322一37一1800：37：26 "十％F%T"](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image012.png)
 
--  
+-  语法4：获取之前或者之后的某个时间（备份）
 
-- 语法4：获取之前或者之后的某个时间（备份）
-
-- \#date -d “**-**1 **day**” “+%Y-%m-%d %H:%M:%S”
+- \#date -d “**-**1 **day**”   “+%Y-%m-%d %H:%M:%S”
 
 - ![计算机生成了可选文字: hekun@ubuntu —/DesktopS 2e22一07一17 hekun@ubuntu —/DesktopS 2e22一07一1700：44：29 hekun@ubuntu —/DesktopS 2e22一07一17 hekun@ubuntu —/DesktopS 2e22一07一1700：45：24 date date date date -d1day' -d1day' -d1day' -d1day' "十％F%T" 十％F](file:///C:/Users/He%20Kun/AppData/Local/Temp/msohtmlclip1/02/clip_image013.png)
 
@@ -174,9 +172,7 @@
 
 - 现在通过管道还可以这么：#cat 路径|less
 
--  
-
--  
+-   
 
 - ③扩展处理：请使用学过的命令，来统计某个目录下的文档的总个数？
 
